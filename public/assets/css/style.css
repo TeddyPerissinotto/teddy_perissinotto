@@ -1,0 +1,38 @@
+.navbar {
+  width: 100%;
+  height: 5vh;
+  background-color: #A8A8A8;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.navItem {
+  margin-right: 5%;
+  text-decoration: none;
+  color: black; }
+
+.profileSection {
+  width: 100%;
+  height: auto; }
+
+.profilePicture {
+  width: 40%;
+  height: 515px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 30%;
+  margin-top: 5%; }
+
+body {
+  margin: 0 auto;
+  font-family: Helvetica; }
+
+h2 {
+  text-align: center;
+  font-size: 3em; }
+
+.imgFluid {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=style.css.map */

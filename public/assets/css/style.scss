@@ -1,0 +1,17 @@
+@import "navbar";
+@import "profileSection";
+
+body{
+  margin: 0 auto;
+  font-family: Helvetica;
+}
+
+h2{
+  text-align: center;
+  font-size: 3em;
+}
+
+.imgFluid{
+  width: 100%;
+  height: auto;
+}
