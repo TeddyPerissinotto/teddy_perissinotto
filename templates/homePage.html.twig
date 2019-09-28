@@ -2,15 +2,12 @@
 
 {% block main %}
 
-    <div class="profileSection">
+    {% include 'profilSection.html.twig' %}
 
-        <div class="profilePicture">
-            <img src="{{ asset('assets/img/profil_picture.jpg') }}" class="imgFluid" alt="Ceci est ma photo de profil">
-        </div>
+    {% include 'technoSection.twig' %}
 
-        <h2>Teddy Perissinotto</h2>
+    {% include 'expeSection.html.twig' %}
 
-    </div>
 {% endblock %}
 
 

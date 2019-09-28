@@ -6,30 +6,90 @@
   justify-content: center;
   align-items: center; }
 
-.navItem {
+.nav-item {
   margin-right: 5%;
   text-decoration: none;
   color: black; }
 
-.profileSection {
+.profile-section {
+  width: 100%;
+  height: 100vh; }
+
+.profile-picture {
+  width: 30%;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 35%;
+  margin-top: 5%; }
+
+.techno-section {
+  width: 100%;
+  height: 100vh;
+  background-color: #868686;
+  align-items: center; }
+
+.techno-list {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 100px; }
+
+.techno-item {
+  width: 10%;
+  height: auto; }
+
+.experiment-section {
   width: 100%;
   height: auto; }
 
-.profilePicture {
-  width: 40%;
-  height: 515px;
-  overflow: hidden;
-  border-radius: 50%;
-  margin-left: 30%;
-  margin-top: 5%; }
+.exp-thumbnail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  width: 100%;
+  height: 200px; }
+
+.exp-date {
+  width: 20%;
+  height: 200px;
+  border: 1px solid blue; }
+
+.top-line, .bottom-line {
+  width: 2px;
+  height: 90px;
+  background-color: black;
+  margin-left: 50%; }
+
+.exp-info {
+  width: 60%;
+  height: 200px;
+  border: solid 1px red; }
+
+.block-date {
+  display: flex;
+  margin-left: 45%; }
+
+.right-line {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  margin-top: 7px; }
 
 body {
   margin: 0 auto;
   font-family: Helvetica; }
 
-h2 {
-  text-align: center;
-  font-size: 3em; }
+h1, h2 {
+  text-align: center; }
+
+h1 {
+  font-size: 3em;
+  padding-top: 30px; }
 
 .imgFluid {
   width: 100%;

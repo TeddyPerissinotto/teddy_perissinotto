@@ -1,14 +1,20 @@
 @import "navbar";
 @import "profileSection";
+@import "technoSection";
+@import "expeSection";
 
 body{
   margin: 0 auto;
   font-family: Helvetica;
 }
 
-h2{
+h1, h2{
   text-align: center;
+}
+
+h1{
   font-size: 3em;
+  padding-top: 30px;
 }
 
 .imgFluid{
