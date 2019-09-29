@@ -2,28 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cd5b50f-a547-4372-b2a5-70b124f1f562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_technoSection.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/expeSection.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/bootstrap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/csslogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/htmllogo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/jquery.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/jquery.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/mysql.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/photoshop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/php.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/phpstorm.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/sql.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/symfony.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/xd.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/educationSection.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/expeSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/_expeSection.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/_expeSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/_expeSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Experience.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Experience.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/expeSection.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/expeSection.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/homePage.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/homePage.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -210,7 +195,8 @@
       <workItem from="1569656892207" duration="7221000" />
       <workItem from="1569689160187" duration="2041000" />
       <workItem from="1569700763712" duration="1144000" />
-      <workItem from="1569732090238" duration="3490000" />
+      <workItem from="1569732090238" duration="4495000" />
+      <workItem from="1569769004851" duration="4147000" />
     </task>
     <task id="LOCAL-00001" summary="28/08/2019">
       <created>1569695962313</created>
@@ -219,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569695962313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="29/09/2019">
+      <created>1569736071677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1569736071677</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +233,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="28/08/2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="28/08/2019" />
+    <MESSAGE value="29/09/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="29/09/2019" />
   </component>
 </project>

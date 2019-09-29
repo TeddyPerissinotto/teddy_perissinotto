@@ -2,29 +2,7 @@
 
     <h1>Expériences professionelles</h1>
 
-    <div class="exp-thumbnail">
-
-        <div class="exp-date">
-
-            <div class="top-line"></div>
-
-            <div class="block-date">
-                <div class="date-info">2019</div>
-                <div class="right-line"></div>
-            </div>
-
-            <div class="bottom-line"></div>
-
-        </div>
-
-        <div class="exp-info">
-            <h2>LA PISCINE</h2>
-            <h3>Developpeur Web, Talence (33)</h3>
-            <p class="exp-description">Réalisation d'un site internet, projet fil rouge, développé avec Symfony 4, HTML 5, CSS3, SASS, jQuery, SQL.</p>
-
-        </div>
-
-    </div>
+    {% for element in experiences %}
 
     <div class="exp-thumbnail">
 
@@ -33,7 +11,7 @@
             <div class="top-line"></div>
 
             <div class="block-date">
-                <div class="date-info">2019</div>
+                <div class="date-info">{{ element.datestart }}</div>
                 <div class="right-line"></div>
             </div>
 
@@ -42,12 +20,15 @@
         </div>
 
         <div class="exp-info">
-            <h2>LA PISCINE</h2>
-            <h3>Developpeur Web, Talence (33)</h3>
-            <p class="exp-description">Réalisation d'un site internet, projet fil rouge, développé avec Symfony 4, HTML 5, CSS3, SASS, jQuery, SQL.</p>
+            <h2>{{ element.company }}</h2>
+            <h3>{{element.job}}, {{ element.city }} - {{ element.time }}</h3>
+            <p class="exp-description">{{element.description}}</p>
 
         </div>
 
     </div>
+
+    {% endfor %}
+
 
 </div>

@@ -42,9 +42,10 @@ class Experience
     private $description;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(type="string", length=255)
      */
     private $time;
+
 
     public function getId(): ?int
     {
@@ -111,16 +112,17 @@ class Experience
         return $this;
     }
 
-    public function getTime(): ?int
+    public function getTime(): ?string
     {
         return $this->time;
     }
 
-    public function setTime(int $time): self
+    public function setTime(string $time): self
     {
         $this->time = $time;
 
         return $this;
     }
+
 
 }
