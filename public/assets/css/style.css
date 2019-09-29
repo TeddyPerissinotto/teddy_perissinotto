@@ -50,25 +50,28 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: solid 1px black;
   width: 100%;
   height: 200px; }
 
 .exp-date {
   width: 20%;
-  height: 200px;
-  border: 1px solid blue; }
+  height: 200px; }
 
 .top-line, .bottom-line {
   width: 2px;
-  height: 90px;
+  height: 80px;
   background-color: black;
   margin-left: 50%; }
 
+.top-line {
+  margin-bottom: 10px; }
+
+.bottom-line {
+  margin-top: 10px; }
+
 .exp-info {
-  width: 60%;
-  height: 200px;
-  border: solid 1px red; }
+  width: 40%;
+  height: 200px; }
 
 .block-date {
   display: flex;
@@ -78,7 +81,9 @@
   width: 80%;
   height: 2px;
   background-color: black;
-  margin-top: 7px; }
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 10px; }
 
 body {
   margin: 0 auto;
