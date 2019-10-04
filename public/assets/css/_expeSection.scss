@@ -3,19 +3,25 @@
   height: auto;
 }
 
-.exp-thumbnail{
+.exp-thumbnail, .exp-thumbnail2{
   display: flex;
-  justify-content: center;
   align-items: center;
-  width: 100%;
   height: 200px;
+  margin-bottom: 30px;
+}
 
+.exp-thumbnail{
+  margin-left: 45%;
+}
+
+.exp-thumbnail2{
+  flex-direction: row-reverse;
+  margin-right: 44%;
 }
 
 .exp-date{
   width: 20%;
   height: 200px;
-
 }
 
 .top-line, .bottom-line{
@@ -34,8 +40,9 @@
 }
 
 .exp-info{
-  width: 40%;
+  width: 70%;
   height: 200px;
+  border: 2px solid black;
 }
 
 .block-date{
@@ -43,14 +50,6 @@
   margin-left: 45%;
 }
 
-.right-line{
-  width: 80%;
-  height: 2px;
-  background-color: black;
-  margin-top: 7px;
-  margin-left: 10px;
-  margin-right: 10px;
-}2
 
 
 
