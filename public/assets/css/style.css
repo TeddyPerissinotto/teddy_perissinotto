@@ -1,7 +1,7 @@
 .navbar {
   width: 100%;
   height: 5vh;
-  background-color: #4678f2;
+  background-color: #8493a9;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -13,10 +13,11 @@
 
 .profile-section {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background-image: url("../img/fond.png");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  padding-bottom: 100px; }
 
 .profile-picture {
   width: 30%;
@@ -24,13 +25,14 @@
   overflow: hidden;
   border-radius: 50%;
   margin-left: 35%;
-  margin-top: 5%; }
+  margin-top: 5%;
+  border: 10px solid #0076a3; }
 
 .techno-section {
   width: 100%;
   height: 100vh;
-  background-color: #4678f2;
-  align-items: center; }
+  align-items: center;
+  padding-top: 100px; }
 
 .techno-list {
   width: 100%;
@@ -87,12 +89,16 @@
   display: flex;
   margin-left: 45%; }
 
+@font-face {
+  @import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
+  font-family: 'Oxygen', sans-serif; }
 body {
   margin: 0 auto;
-  font-family: Helvetica; }
+  font-family: 'Oxygen', sans-serif; }
 
 h1, h2 {
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
 
 h1 {
   font-size: 3em;
