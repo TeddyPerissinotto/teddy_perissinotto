@@ -2,14 +2,22 @@
 
     <h1>Formation</h1>
 
-    {%  for education in educations %}
+    <div class="education-list">
 
-        <div class="education-thumbnail">
+        {%  for education in educations %}
 
-            <h2>{{ education.year }} - {{ education.diploma }}</h2>
-            <h3>{{ education.school}} - {{ education.city }}</h3>
+            <div class="education-thumbnail">
 
-        </div>
+                <h2>{{ education.year }}</h2>
 
-    {% endfor%}
+                <h3>{{ education.school}} - {{ education.city }}</h3>
+
+                <hr>
+
+                <h3>{{ education.diploma }}</h3>
+
+            </div>
+
+        {% endfor%}
+    </div>
 </div>
