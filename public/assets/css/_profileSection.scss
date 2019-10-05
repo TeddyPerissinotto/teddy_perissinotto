@@ -5,6 +5,7 @@
   background-size: cover;
   background-position: center;
   padding-bottom: 100px;
+  box-shadow: 0 8px 6px -6px black
 }
 
 .profile-picture{
@@ -15,4 +16,10 @@
   margin-left: 35%;
   margin-top: 5%;
   border: 10px solid rgb(0, 118, 163);
+}
+
+.profile-info{
+  width: 40%;
+  box-shadow: 0 8px 6px -6px black;
+  margin-left: 30%;
 }

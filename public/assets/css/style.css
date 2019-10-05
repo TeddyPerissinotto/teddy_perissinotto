@@ -4,12 +4,21 @@
   background-color: #8493a9;
   display: flex;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  position: -webkit-sticky; }
 
 .nav-item {
   margin-right: 5%;
   text-decoration: none;
   color: black; }
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0; }
 
 .profile-section {
   width: 100%;
@@ -17,7 +26,8 @@
   background-image: url("../img/fond.png");
   background-size: cover;
   background-position: center;
-  padding-bottom: 100px; }
+  padding-bottom: 100px;
+  box-shadow: 0 8px 6px -6px black; }
 
 .profile-picture {
   width: 30%;
@@ -28,9 +38,14 @@
   margin-top: 5%;
   border: 10px solid #0076a3; }
 
+.profile-info {
+  width: 40%;
+  box-shadow: 0 8px 6px -6px black;
+  margin-left: 30%; }
+
 .techno-section {
   width: 100%;
-  height: 100vh;
+  height: 500px;
   align-items: center;
   padding-top: 100px; }
 
@@ -51,14 +66,16 @@
   width: 100%;
   height: auto; }
 
+.experience-section h1 {
+  margin-bottom: 50px; }
+
 .exp-thumbnail, .exp-thumbnail2 {
   display: flex;
   align-items: center;
-  height: 200px;
-  margin-bottom: 30px; }
+  height: 200px; }
 
 .exp-thumbnail {
-  margin-left: 45%; }
+  margin-left: 606px; }
 
 .exp-thumbnail2 {
   flex-direction: row-reverse;
@@ -75,7 +92,7 @@
   margin-left: 50%; }
 
 .top-line {
-  margin-bottom: 10px; }
+  margin-bottom: 12px; }
 
 .bottom-line {
   margin-top: 10px; }
@@ -83,11 +100,22 @@
 .exp-info {
   width: 70%;
   height: 200px;
-  border: 2px solid black; }
+  box-shadow: 10px 5px 5px #bbc1ca;
+  border-radius: 50px;
+  overflow: hidden; }
+
+.exp-info h2 {
+  background-color: #0076a3; }
 
 .block-date {
   display: flex;
-  margin-left: 45%; }
+  margin-left: 40%; }
+
+.top-arrow {
+  width: 25px;
+  height: auto;
+  position: relative;
+  margin-left: 668px; }
 
 @font-face {
   @import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");

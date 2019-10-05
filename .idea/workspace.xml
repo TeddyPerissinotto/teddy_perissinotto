@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cd5b50f-a547-4372-b2a5-70b124f1f562" name="Default Changelist" comment="" />
+    <list default="true" id="9cd5b50f-a547-4372-b2a5-70b124f1f562" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/assets/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_navbar.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_navbar.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_profileSection.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_profileSection.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_technoSection.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_technoSection.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/_expeSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/_expeSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/_navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/_profileSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/_profileSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/_technoSection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/_technoSection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base/_footer.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base/_footer.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/educationSection.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/educationSection.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/expeSection.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/expeSection.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/profilSection.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/profilSection.html.twig" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,7 +154,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lesCreatifsDePuygareau" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -196,7 +212,9 @@
       <workItem from="1569916763056" duration="240000" />
       <workItem from="1569998074033" duration="1001000" />
       <workItem from="1570169863977" duration="11000" />
-      <workItem from="1570170353033" duration="3237000" />
+      <workItem from="1570170353033" duration="4124000" />
+      <workItem from="1570192923857" duration="3228000" />
+      <workItem from="1570252137559" duration="4902000" />
     </task>
     <task id="LOCAL-00001" summary="28/08/2019">
       <created>1569695962313</created>
@@ -233,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570177034013</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="04/10/2019">
+      <created>1570182275184</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570182275184</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
