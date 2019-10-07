@@ -11,7 +11,6 @@
   display: flex;
   align-items: center;
   height: 200px;
-
 }
 
 .exp-thumbnail{
@@ -26,6 +25,16 @@
 .exp-date{
   width: 20%;
   height: 200px;
+}
+
+.date-info{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+}
+.date-info:hover{
+  background-color: rgb(0, 118, 163);
 }
 
 .top-line, .bottom-line{
@@ -58,7 +67,7 @@
 
 .block-date{
   display: flex;
-  margin-left: 40%;
+  margin-left: 35%;
 }
 
 .top-arrow{

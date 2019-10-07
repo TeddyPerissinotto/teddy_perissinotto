@@ -18,6 +18,17 @@
   border: 10px solid rgb(0, 118, 163);
 }
 
+.logo{
+  width: 30%;
+  height: 400px;
+  overflow: hidden;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 36%;
+  display: none;
+}
+
+
 .profile-info{
   width: 40%;
   box-shadow: 0 8px 6px -6px black;
