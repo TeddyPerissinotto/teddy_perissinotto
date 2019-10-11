@@ -3,6 +3,7 @@
 @import "technoSection";
 @import "expeSection";
 @import "educationSection";
+@import "contactSection";
 
 @font-face {
   @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap');
@@ -27,6 +28,10 @@ h1, h2{
 h1{
   font-size: 3em;
   padding-top: 30px;
+}
+
+a:hover{
+  background-color: #70FF92;
 }
 
 .imgFluid{

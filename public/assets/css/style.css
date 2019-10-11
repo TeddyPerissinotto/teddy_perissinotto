@@ -1,13 +1,18 @@
 .navbar {
   width: 100%;
-  height: 5vh;
-  background-color: #f26d0b;
+  height: 10vh;
+  background-color: #109978;
   display: flex;
   justify-content: center;
   align-items: center;
   position: -webkit-sticky; }
 
+.logo-nav {
+  margin-top: 12px; }
+
 .nav-item {
+  width: 10%;
+  height: 60px;
   margin-right: 5%;
   text-decoration: none;
   color: black; }
@@ -36,16 +41,7 @@
   border-radius: 50%;
   margin-left: 35%;
   margin-top: 5%;
-  border: 10px solid #0076a3; }
-
-.logo {
-  width: 30%;
-  height: 400px;
-  overflow: hidden;
-  position: absolute;
-  margin-top: 10%;
-  margin-left: 36%;
-  display: none; }
+  border: 10px solid #109978; }
 
 .profile-info {
   width: 40%;
@@ -101,7 +97,7 @@
   text-align: center; }
 
 .date-info:hover {
-  background-color: #0076a3; }
+  background-color: #109978; }
 
 .top-line, .bottom-line {
   width: 2px;
@@ -120,10 +116,11 @@
   height: 200px;
   box-shadow: 10px 5px 5px #bbc1ca;
   border-radius: 50px;
-  overflow: hidden; }
+  overflow: hidden;
+  background-color: white; }
 
 .exp-info h2 {
-  background-color: #0076a3; }
+  background-color: #109978; }
 
 .block-date {
   display: flex;
@@ -138,7 +135,10 @@
 .education-section {
   width: 100%;
   height: 500px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  background-image: url("../img/fond-top.png");
+  background-size: cover;
+  background-position: center; }
 
 .education-list {
   width: 100%;
@@ -150,7 +150,7 @@
 .education-thumbnail {
   width: 25%;
   height: 250px;
-  background-color: #0076a3;
+  background-color: #D0EBBC;
   box-shadow: 0 8px 6px -6px black;
   text-align: center;
   border-radius: 25px; }
@@ -159,6 +159,18 @@ hr {
   width: 70%;
   height: 2px;
   background-color: white; }
+
+.contact-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: auto; }
+
+.contact-thumbnail {
+  width: 10%;
+  height: auto; }
 
 @font-face {
   @import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
@@ -177,6 +189,9 @@ h1, h2 {
 h1 {
   font-size: 3em;
   padding-top: 30px; }
+
+a:hover {
+  background-color: #70FF92; }
 
 .imgFluid {
   width: 100%;

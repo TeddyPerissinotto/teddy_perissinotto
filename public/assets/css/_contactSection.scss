@@ -1,0 +1,13 @@
+.contact-list{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: auto;
+}
+
+.contact-thumbnail{
+  width: 10%;
+  height: auto;
+}
