@@ -1,17 +1,21 @@
 {% extends 'base/base.html.twig' %}
 
 {% block main %}
-
-    {% include 'profilSection.html.twig' %}
-
-    {% include 'technoSection.twig' %}
-
-    {% include 'expeSection.html.twig' %}
-
-    {% include 'educationSection.html.twig' %}
-
-    {% include 'contactSection.html.twig' %}
-
+    <section>
+        {% include 'profilSection.html.twig' %}
+    </section>
+    <section>
+        {% include 'technoSection.twig' %}
+    </section>
+    <section>
+        {% include 'expeSection.html.twig' %}
+    </section>
+    <section>
+        {% include 'educationSection.html.twig' %}
+    </section>
+    <section>
+        {% include 'contactSection.html.twig' %}
+    </section>
 {% endblock %}
 
 

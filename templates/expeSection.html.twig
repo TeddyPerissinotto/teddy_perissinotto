@@ -6,30 +6,31 @@
     </div>
 
     {% for element in experiences %}
+        <article>
 
-    <div class="{% if loop.index is odd %}exp-thumbnail{% else %}exp-thumbnail2{% endif %}">
+            <div class="{% if loop.index is odd %}exp-thumbnail{% else %}exp-thumbnail2{% endif %}">
 
-        <div class="exp-date">
+                <div class="exp-date">
 
-            <div class="top-line"></div>
+                    <div class="top-line"></div>
 
-            <div class="block-date">
-                <div class="date-info"><p>{{ element.datestart }}</p></div>
+                    <div class="block-date">
+                        <div class="date-info"><p>{{ element.datestart }}</p></div>
+                    </div>
+
+                    <div class="bottom-line"></div>
+
+                </div>
+
+                <div class="exp-info">
+                    <h2>{{ element.company }}</h2>
+                    <h3>{{element.job}}, {{ element.city }} - {{ element.time }}</h3>
+                    <p class="exp-description">{{element.description}}</p>
+
+                </div>
+
             </div>
-
-            <div class="bottom-line"></div>
-
-        </div>
-
-        <div class="exp-info">
-            <h2>{{ element.company }}</h2>
-            <h3>{{element.job}}, {{ element.city }} - {{ element.time }}</h3>
-            <p class="exp-description">{{element.description}}</p>
-
-        </div>
-
-    </div>
-
+        </article>
     {% endfor %}
 
 
