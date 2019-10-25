@@ -9,7 +9,6 @@ use App\Repository\ExperienceRepository;
 use App\Repository\ProjectRepository;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
-use Symfony\Component\HttpFoundation\Response;
 
 class HomeController extends AbstractController
 {
@@ -29,4 +28,18 @@ class HomeController extends AbstractController
                 'projects'=>$projects
             ]);
     }
+
+    /**
+     * @Route("/project/{id}", name="project_by_id")
+     */
+    public function projectById($id, ProjectRepository $projectRepository)
+    {
+        $project = $projectRepository->find($id);
+
+        return $this->render('project.html.twig',
+            [
+                'project' => $project
+            ]);
+    }
+
 }

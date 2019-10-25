@@ -1,0 +1,68 @@
+{% extends 'base/base.html.twig' %}
+
+{% block main %}
+
+    <section>
+
+
+            <article>
+
+                <div class="project-modal">
+                    <h2>{{ project.name }}</h2>
+
+                    <div class="project-description">
+                        <p>{{ project.description }}</p>
+                    </div>
+
+                    <div class="project-images-block">
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image1 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image2 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image3 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image4 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image5 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image6 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image7 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image8 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image9 }}" class="imgFluid" alt="">
+                        </div>
+
+                        <div class="project-image">
+                            <img src="{{ asset('assets/img') }}/{{ project.image10 }}" class="imgFluid" alt="">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+    </section>
+
+{% endblock %}

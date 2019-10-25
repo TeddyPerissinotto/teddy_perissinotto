@@ -1,70 +1,18 @@
 <div class="project-section">
-    
+
     <h1>Mes projets</h1>
-    
+
     {% for project in projects %}
         <article>
-            
-            <div class="project-thumbnail">
-                <h2>{{ project.name }}</h2>
-                <div class="project-image-thumbnail">
-                    <img src="{{ asset('assets/img') }}/{{ project.image1 }}" alt="" class="imgFluid">
+            <a href="{{ path('project_by_id', {'id': project.id}) }}">
+                <div class="project-thumbnail">
+                    <h2>{{ project.name }}</h2>
+                    <div class="project-image-thumbnail">
+                        <img src="{{ asset('assets/img') }}/{{ project.image1 }}" alt="" class="imgFluid">
+                    </div>
                 </div>
-            </div>
-
-            <div class="project-modal">
-                <h2>{{ project.name }}</h2>
-
-                <div class="project-description">
-                    <p>{{ project.description }}</p>
-                </div>
-
-                <div class="project-images-block">
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image1 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image2 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image3 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image4 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image5 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image6 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image7 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image8 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image9 }}" class="imgFluid" alt="">
-                    </div>
-
-                    <div class="project-image">
-                        <img src="{{ asset('assets/img') }}/{{ project.image10 }}" class="imgFluid" alt="">
-                    </div>
-
-                </div>
-
-            </div>
-            
+            </a>
         </article>
+
     {% endfor %}
 </div>

@@ -172,6 +172,15 @@ hr {
   width: 10%;
   height: auto; }
 
+.project-thumbnail {
+  width: 20%;
+  height: 300px;
+  overflow: hidden; }
+
+.project-image-thumbnail {
+  width: 100%;
+  height: auto; }
+
 @font-face {
   @import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
   font-family: 'Oxygen', sans-serif; }
