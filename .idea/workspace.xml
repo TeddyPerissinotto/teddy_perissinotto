@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cd5b50f-a547-4372-b2a5-70b124f1f562" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/_projectSection.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/01-lcdp-homepage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/02-lcdp-slidemenu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/03-lcdp-productpage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/04-lcdp-newspage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/05-lcdp-news.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/06-lcdp-contact.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/07-lcdp-adminconnection.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/08-lcdp-adminhome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/09-lcdp-adminproduct.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Entity/Project.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Migrations/Version20191022050636.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/ProjectRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/project.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/_projectSection.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/.sass-cache/8a6f142ee94c8f89b267b08429b39fd0c57b1e4a/style.scssc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/projectSection.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/projectSection.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -254,7 +234,7 @@
       <workItem from="1571738164570" duration="1231000" />
       <workItem from="1571835437708" duration="1716000" />
       <workItem from="1571909245520" duration="4598000" />
-      <workItem from="1571978436399" duration="3727000" />
+      <workItem from="1571978436399" duration="4412000" />
     </task>
     <task id="LOCAL-00001" summary="28/08/2019">
       <created>1569695962313</created>
@@ -347,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571723417560</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="25/10/19">
+      <created>1571982353507</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1571982353507</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,6 +360,7 @@
     <MESSAGE value="05/10/19" />
     <MESSAGE value="07/10/19" />
     <MESSAGE value="22/10/19" />
-    <option name="LAST_COMMIT_MESSAGE" value="22/10/19" />
+    <MESSAGE value="25/10/19" />
+    <option name="LAST_COMMIT_MESSAGE" value="25/10/19" />
   </component>
 </project>
