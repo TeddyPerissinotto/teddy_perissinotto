@@ -3,57 +3,50 @@
 {% block main %}
 
     <section>
-
-
             <article>
-
-                <div class="project-modal">
-                    <h2>{{ project.name }}</h2>
+                <div class="project-box">
+                    <h2>Les Créatifs de Puygareau</h2>
 
                     <div class="project-description">
-                        <p>{{ project.description }}</p>
+                        <p>Réalisation d'un site vitrine pour un artisan fabricant de jouets et objets en bois doté d'une interface administrateur de type CRUD.<br> Maquettage avec ADOBE XD.<br>Langages Front : HTML/CSS -> Sass/jQuery.<br> Langages Back : PHP/Symfony 4/ ORM Doctrine/Twig/FOSUserBundle.</p>
                     </div>
 
                     <div class="project-images-block">
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image1 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/01-lcdp-homepage.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image2 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/02-lcdp-slidemenu.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image3 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/03-lcdp-productpage.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image4 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/04-lcdp-newspage.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image5 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/05-lcdp-news.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image6 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/06-lcdp-contact.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image7 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/07-lcdp-adminconnection.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image8 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/08-lcdp-adminhome.png')}}" class="imgFluid" alt="">
                         </div>
 
                         <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image9 }}" class="imgFluid" alt="">
-                        </div>
-
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img') }}/{{ project.image10 }}" class="imgFluid" alt="">
+                            <img src="{{ asset('assets/img/09-lcdp-adminproduct.png')}}" class="imgFluid" alt="">
                         </div>
 
                     </div>
@@ -61,8 +54,6 @@
                 </div>
 
             </article>
-
-
     </section>
 
 {% endblock %}

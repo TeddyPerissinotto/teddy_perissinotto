@@ -2,17 +2,15 @@
 
     <h1>Mes projets</h1>
 
-    {% for project in projects %}
         <article>
-            <a href="{{ path('project_by_id', {'id': project.id}) }}">
+            <a href="{{ path('project_lcdp') }}">
                 <div class="project-thumbnail">
-                    <h2>{{ project.name }}</h2>
+                    <h2>Les Créatifs de Puygareau</h2>
                     <div class="project-image-thumbnail">
-                        <img src="{{ asset('assets/img') }}/{{ project.image1 }}" alt="" class="imgFluid">
+                        <img src="{{ asset('assets/img/01-lcdp-homepage.png')}}" alt="" class="imgFluid">
                     </div>
                 </div>
             </a>
         </article>
 
-    {% endfor %}
 </div>

@@ -4,20 +4,54 @@
 
     <div class="education-list">
 
-        {%  for education in educations %}
+        <div class="education-thumbnail">
 
-            <div class="education-thumbnail">
+            <div class="card">
 
-                <h2>{{ education.year }}</h2>
+                <div class="front">
 
-                <h3>{{ education.school}} - {{ education.city }}</h3>
+                    <h2>2007</h2>
+                    <h3>Lycée Anatole de Monzie</h3>
+                    <h3>BAZAS</h3>
 
-                <hr>
+                    <hr>
 
-                <h3>{{ education.diploma }}</h3>
+                    <h3>BEP Métiers du tertiaire</h3>
+
+                </div>
+
+                <div class="back">
+                    <p>Préparation au métier de Comptable</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="education-thumbnail">
+
+            <div class="card">
+
+                <div class="front">
+
+                    <h2>2019</h2>
+
+                    <h3>La Piscine</h3>
+                    <h3>TALENCE</h3>
+
+                    <hr>
+
+                    <h3>Titre professionnel<br>Développeur Web & Web Mobile</h3>
+
+                </div>
+
+                <div class="back">
+                    <p>Apprentissage de différents langages de développement :<br><br> HTML, CSS , Bootstrap, jQuery, SQL, PHP, Symfony, Prestashop, Wordpress</p>
+                </div>
 
             </div>
 
-        {% endfor%}
+        </div>
+
     </div>
 </div>

@@ -8,3 +8,28 @@
   width: 100%;
   height: auto;
 }
+
+.project-box{
+  width: 100%;
+  height: auto;
+}
+
+.project-description{
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.project-images-block{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.project-image{
+  width: 60%;
+  height: auto;
+}

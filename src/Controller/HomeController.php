@@ -30,16 +30,11 @@ class HomeController extends AbstractController
     }
 
     /**
-     * @Route("/project/{id}", name="project_by_id")
+     * @Route("/project/lescreatifsdepuygareau", name="project_lcdp")
      */
-    public function projectById($id, ProjectRepository $projectRepository)
+    public function projectLcdp()
     {
-        $project = $projectRepository->find($id);
-
-        return $this->render('project.html.twig',
-            [
-                'project' => $project
-            ]);
+        return $this->render('project.html.twig');
     }
 
 }
