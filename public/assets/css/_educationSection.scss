@@ -55,7 +55,7 @@
   backface-visibility: hidden;
 }
 
-hr{
+.eduction-hr{
   width: 70%;
   height: 2px;
   background-color: white;
@@ -66,10 +66,18 @@ hr{
   margin-top: 20px;
 }
 
+.eduction-image{
+  width: 50%;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 25%;
+  margin-top: 10%;
+}
+
 .back p{
   width: 90%;
   height: auto;
-  margin-top: 50%;
   margin-left: 5%;
   text-align: center;
 }

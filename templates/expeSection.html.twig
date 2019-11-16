@@ -5,33 +5,84 @@
         <img src="{{ asset('assets/img/top_arrow.png') }}" alt="" class="imgFluid">
     </div>
 
-    {% for element in experiences %}
-        <article>
 
-            <div class="{% if loop.index is odd %}exp-thumbnail{% else %}exp-thumbnail2{% endif %}">
-
-                <div class="exp-date">
-
-                    <div class="top-line"></div>
-
-                    <div class="block-date">
-                        <div class="date-info"><p>{{ element.datestart }}</p></div>
-                    </div>
-
-                    <div class="bottom-line"></div>
-
+    <article>
+        <div class="exp-thumbnail lapiscine">
+            <div class="exp-date">
+                <div class="top-line"></div>
+                <div class="block-date">
+                    <div class="date-info"><p>2019</p></div>
                 </div>
-
-                <div class="exp-info">
-                    <h2>{{ element.company }}</h2>
-                    <h3>{{element.job}}, {{ element.city }} - {{ element.time }}</h3>
-                    <p class="exp-description">{{element.description}}</p>
-
-                </div>
-
+                <div class="bottom-line"></div>
             </div>
-        </article>
-    {% endfor %}
+            <div class="exp-info">
+                <h2>LA PISCINE</h2>
+                <h3>Développeur Web, Talence - 3.5 mois</h3>
+                <p class="exp-description"><strong>Projet d'application</strong> :<br>
+                    Site vitrine pour un fabricant de jouets et objets en bois.<br>
+                    Site avec une interface administrateur sécurisée de type CRUD.<br><br>
+                    <strong>Technologies Back</strong> : Symfony 4.3 : Framework de PHP; ORM Doctrine; Moteur de templates Twig; FOSUserBundle : sécurise l’accès à l’espace administrateur;<br><br>
+                    <strong>Technologies Front</strong> : Maquettage avec Adobe XD; Langages HTML et CSS; SASS : utilisé pour le système de fichiers partiels; jQuery ;
+                </p>
+            </div>
+        </div>
+    </article>
 
+    <article>
+        <div class="exp-thumbnail2 lgr">
+            <div class="exp-date">
+                <div class="top-line"></div>
+                <div class="block-date">
+                    <div class="date-info"><p>2012</p></div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="exp-info">
+                <h2>LA GRANDE RECRE</h2>
+                <h3>Vendeur Qualifié, Bouliac - 6 ans</h3>
+                <ul>
+                    <li><strong>Vente :</strong>
+                        <ul>
+                            <li>Accueil</li>
+                            <li>Conseil Clientèle</li>
+                        </ul>
+                    </li>
+                    <li><strong>Magasin :</strong>
+                        <ul>
+                            <li>Gestion du Servie après-vente</li>
+                            <li>Gestion des livraisons</li>
+                            <li>Mise en rayon</li>
+                        </ul>
+                    </li>
+                    <li><strong>Equipe :</strong>
+                        <ul>
+                            <li>Préparation de la journée</li>
+                            <li>Répartition des tâches à l'ensemble de l'équipe</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </article>
+
+    <article>
+        <div class="exp-thumbnail antares">
+            <div class="exp-date">
+                <div class="top-line"></div>
+                <div class="block-date">
+                    <div class="date-info"><p>2019</p></div>
+                </div>
+                <div class="bottom-line"></div>
+            </div>
+            <div class="exp-info">
+                <h2>ANTARES MULTIMEDIA</h2>
+                <h3>Responsable des ventes, Marmande - 11 mois</h3>
+                <p class="exp-description">
+                    <strong>Vente</strong> : Accueil et conseil de la clientèle.<br><br>
+                    <strong>Magasin</strong> : Gestion du Service après-vente; Gestion des livraisons; Mise en rayon;<br><br>
+                </p>
+            </div>
+        </div>
+    </article>
 
 </div>

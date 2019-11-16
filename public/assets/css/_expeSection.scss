@@ -10,7 +10,7 @@
 .exp-thumbnail, .exp-thumbnail2{
   display: flex;
   align-items: center;
-  height: 200px;
+  height: 300px;
 }
 
 .exp-thumbnail{
@@ -24,7 +24,7 @@
 
 .exp-date{
   width: 20%;
-  height: 200px;
+  height: 300px;
 }
 
 .date-info{
@@ -39,7 +39,7 @@
 
 .top-line, .bottom-line{
   width: 2px;
-  height: 80px;
+  height: 115px;
   background-color: black;
   margin-left: 50%;
 }
@@ -54,7 +54,7 @@
 
 .exp-info{
   width: 70%;
-  height: 200px;
+  height: 300px;
   box-shadow: 10px 5px 5px rgb(187, 193, 202);
   border-radius: 50px;
   overflow: hidden;

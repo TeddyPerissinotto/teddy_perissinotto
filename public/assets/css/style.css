@@ -77,7 +77,7 @@
 .exp-thumbnail, .exp-thumbnail2 {
   display: flex;
   align-items: center;
-  height: 200px; }
+  height: 300px; }
 
 .exp-thumbnail {
   margin-left: 606px; }
@@ -88,7 +88,7 @@
 
 .exp-date {
   width: 20%;
-  height: 200px; }
+  height: 300px; }
 
 .date-info {
   width: 50px;
@@ -101,7 +101,7 @@
 
 .top-line, .bottom-line {
   width: 2px;
-  height: 80px;
+  height: 115px;
   background-color: black;
   margin-left: 50%; }
 
@@ -113,7 +113,7 @@
 
 .exp-info {
   width: 70%;
-  height: 200px;
+  height: 300px;
   box-shadow: 10px 5px 5px #bbc1ca;
   border-radius: 50px;
   overflow: hidden;
@@ -181,7 +181,7 @@
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   backface-visibility: hidden; }
 
-hr {
+.eduction-hr {
   width: 70%;
   height: 2px;
   background-color: white;
@@ -190,10 +190,17 @@ hr {
 .front h2, .front h3 {
   margin-top: 20px; }
 
+.eduction-image {
+  width: 50%;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 25%;
+  margin-top: 10%; }
+
 .back p {
   width: 90%;
   height: auto;
-  margin-top: 50%;
   margin-left: 5%;
   text-align: center; }
 
@@ -225,19 +232,19 @@ hr {
 .project-description {
   width: 60%;
   height: auto;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 .project-images-block {
   width: 100%;
   height: auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center; }
+  margin: 0 auto; }
 
 .project-image {
   width: 60%;
-  height: auto; }
+  height: auto;
+  margin: 0 auto; }
 
 @font-face {
   @import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");

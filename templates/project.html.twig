@@ -3,57 +3,80 @@
 {% block main %}
 
     <section>
-            <article>
-                <div class="project-box">
-                    <h2>Les Créatifs de Puygareau</h2>
+        <article>
+            <div class="project-box">
+                <h2>Les Créatifs de Puygareau</h2>
 
-                    <div class="project-description">
-                        <p>Réalisation d'un site vitrine pour un artisan fabricant de jouets et objets en bois doté d'une interface administrateur de type CRUD.<br> Maquettage avec ADOBE XD.<br>Langages Front : HTML/CSS -> Sass/jQuery.<br> Langages Back : PHP/Symfony 4/ ORM Doctrine/Twig/FOSUserBundle.</p>
+                <div class="project-description">
+                    <p>Réalisation d'un site vitrine pour un artisan fabricant de jouets et objets en bois doté d'une interface administrateur de type CRUD.<br> Maquettage avec ADOBE XD.<br>Langages Front : HTML/CSS -> Sass/jQuery.<br> Langages Back : PHP/Symfony 4/ ORM Doctrine/Twig/FOSUserBundle.</p>
+                </div>
+
+                <div class="project-images-block">
+
+                    <h3>Page d'accueil</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/01-lcdp-homepage.png')}}" class="imgFluid" alt="">
                     </div>
 
-                    <div class="project-images-block">
+                    <hr>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/01-lcdp-homepage.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <h3>Menu déroulant</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/02-lcdp-slidemenu.png')}}" class="imgFluid" alt="">
+                    </div>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/02-lcdp-slidemenu.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <hr>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/03-lcdp-productpage.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <h3>Page produit</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/03-lcdp-productpage.png')}}" class="imgFluid" alt="">
+                    </div>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/04-lcdp-newspage.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <hr>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/05-lcdp-news.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <h3>Page liste des actualités</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/04-lcdp-newspage.png')}}" class="imgFluid" alt="">
+                    </div>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/06-lcdp-contact.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <hr>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/07-lcdp-adminconnection.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <h3>Page actualité</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/05-lcdp-news.png')}}" class="imgFluid" alt="">
+                    </div>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/08-lcdp-adminhome.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <h3>Page contact</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/06-lcdp-contact.png')}}" class="imgFluid" alt="">
+                    </div>
 
-                        <div class="project-image">
-                            <img src="{{ asset('assets/img/09-lcdp-adminproduct.png')}}" class="imgFluid" alt="">
-                        </div>
+                    <hr>
 
+                    <h3>Page connexion administrateur</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/07-lcdp-adminconnection.png')}}" class="imgFluid" alt="">
+                    </div>
+
+                    <hr>
+
+                    <h3>Page accueil administrateur</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/08-lcdp-adminhome.png')}}" class="imgFluid" alt="">
+                    </div>
+
+                    <hr>
+
+                    <h3>Page gestion des produits administrateur</h3>
+                    <div class="project-image">
+                        <img src="{{ asset('assets/img/09-lcdp-adminproduct.png')}}" class="imgFluid" alt="">
                     </div>
 
                 </div>
 
-            </article>
+            </div>
+
+        </article>
     </section>
 
 {% endblock %}
